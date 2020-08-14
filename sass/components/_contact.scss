@@ -1,0 +1,112 @@
+.contact-us
+{
+    font-family: 'Montserrat', sans-serif;
+
+    h1{
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    padding-top: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+
+    }
+
+    hr
+    {
+    color: black;
+    margin-top: 2.5rem;
+    background-color: black;
+    height: 1px;
+    width: 106px;
+    border: 0;
+    margin: 3rem auto;
+    }
+
+    .address
+    {
+        margin: 5rem auto 3rem auto;
+        text-align: center;
+        .button
+        {
+           width: 10rem;
+           animation: none;
+           transition: all ease 1s;
+           font-weight: 500;
+
+        }
+
+        .button:hover
+        {
+           
+                box-shadow: inset 200px 0 0 0 $button_gradient2;
+                color: #fff;
+            
+        }
+    }
+
+    .reservation-info
+    {
+        text-align: center;
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+
+
+        p{
+        font-size: 15px;
+        line-height: 1.6em;
+        letter-spacing: .4px;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(0,0,0,.5);
+        }
+    }
+
+
+    // .contact--details
+    // {
+    //     margin-top: 5rem;
+    //     display: flex;
+    //     margin-bottom: 5rem;
+    //     .label
+    //     {
+    //         color: #000000;
+    //         font-size: 2.4rem;
+    //         font-weight: 700;
+    //         line-height: 1.25;
+    //         padding: 0 2rem;
+
+    //     }
+
+    //     .value
+    //     {
+    //         padding: 0 2rem;
+    //         font-size: 1.7rem;
+    //         font-weight: 400;
+    //     }
+    // }
+}
+
+
+@media only screen and (max-width :480px)
+    {
+        
+            .contact-us
+            {
+
+                
+                .address
+                {
+                    h3
+                    {
+                        line-height: 2.5rem;
+                        font-size: 2rem;
+
+                    }
+                }
+            }
+            
+         
+    }
+    

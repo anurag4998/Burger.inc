@@ -1,0 +1,23 @@
+footer
+{
+    background-color: #171717;
+    .text-container
+    {
+        text-align: center;
+    }
+    h5{
+        padding: 5rem 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-style: normal;
+        color: rgba(255,255,255,.8);
+
+        span
+        {
+            margin-left: 1rem;
+        }
+    }
+}

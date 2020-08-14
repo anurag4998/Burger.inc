@@ -1,0 +1,46 @@
+.header__box__content
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 0;
+          
+   
+           
+            .header__box__content--text
+            {
+                 h1
+                    {
+                        font-size: 8rem;
+                        color: $floralwhite;
+                        font-weight: 800;
+                        z-index: 0;
+                        animation-name: animatedtitle ;
+                        animation-duration: 3.5s;
+                        animation-timing-function: ease-in;
+                        background-attachment: fixed;
+
+                    }               
+            }            
+
+        }   
+
+@media only screen and (max-width :480px)
+{
+    .header__box__content
+    {
+        
+        .header__box__content--text
+        h1
+        {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+    }
+}

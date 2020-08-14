@@ -1,0 +1,117 @@
+.menu__2
+{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    padding: 4rem 0;
+    background: linear-gradient(to right ,#fff,#efefefa6) ;
+    .menu__2__photo
+    {
+        position: absolute;
+        top: -150px;
+        left: 20px;
+
+        width: 80%;
+        max-width: 800px;
+        z-index: 1;
+        img
+        {
+            width: 90%;
+            height: 500px;
+            background-size: cover;
+            text-align: center;
+        }
+
+      
+    }
+
+    .menu__2__photo-large
+    {
+        position: absolute;
+        top:0px;
+        left: 500px;
+        z-index: 2;
+        max-width: 300px;
+        box-shadow: 9.5px 9.5px 10px #d3b491;
+        img
+        {
+            width: 100%;
+        }
+
+        // &::after
+        // {
+        //     content: "";
+        //     z-index: -1;
+        //     position: absolute;
+        //     top:9.5px;
+        //     left: 9.5px;
+        //     width: 90%;
+        //     height: 100%;
+        //     // background-color: #d3b491;
+        // }
+    }
+    .menu__title
+    {
+
+        & .menu__title--size
+        {
+            padding-top: 5rem;
+            font-size: 6.5rem;
+            color: #006b38ff;
+            letter-spacing: 0.2rem;
+            padding-left: 2rem;
+        }
+    }
+    .menu__text
+    {
+        padding: 1rem;
+        font-size: 1.7rem;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+   
+}
+
+.wp-3,.wp-4
+{
+    opacity: 0;
+
+}
+
+
+
+.wp-3.animated,
+.wp-4.animated
+
+{
+    opacity: 1;
+}
+@media only screen and (min-width:1200px)
+{
+    .menu__2
+    {
+        height: 65vh;
+    }
+}
+@media only screen and (max-width :480px)
+    {
+        .menu__2
+        {      
+            padding: 4rem 0;
+
+            .menu__title
+            {
+                & .menu__title--size
+                {
+                    font-size: 5rem;
+                }
+            }
+
+            .menu__text
+            {
+                padding: 2rem;
+            }
+        }
+    }
+    
+ 

@@ -1,0 +1,20 @@
+header
+{
+    // background-image: url(/images/burger.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     filter: blur(1px);
+    position: relative;
+   
+    animation-fill-mode: forwards;
+    overflow: hidden;
+
+    animation:
+    animatedheader 3.5s ease 0s;
+
+    transition: background-image ease-in-out 0.4s;
+}
+
+

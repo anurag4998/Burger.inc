@@ -1,0 +1,123 @@
+.menu
+{
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    .menu__photo
+    {
+        position: absolute;
+        top: -140px;
+        right: -100px;
+        width: 80%;
+        max-width: 800px;
+        z-index: 1;
+
+        img
+        {
+            width: 80%;
+            height: 500px;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    .menu__photo-small
+    {
+        position: absolute;
+        top:0px;
+        right:400px;
+        z-index: 2;
+        max-width: 400px;
+        box-shadow: -9.5px 9.5px 12px #ac9377a4;
+
+        img
+        {
+            width: 100%;
+        }
+    
+        
+    }
+
+    .menu__title
+    {
+
+        & .menu__title--size
+        {
+            padding-top: 5rem;
+            font-size: 6.5rem;
+            color: #006b38ff;
+            letter-spacing: 0.2rem;
+        }
+    }
+    .menu__text
+    {
+        padding: 1rem;
+        font-size: 1.7rem;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+   
+}
+
+.wp-1,.wp-2
+{
+    opacity: 0;
+    animation-duration: 2s;
+
+}
+.wp-2
+{
+    animation-duration: 2s;
+}
+
+.wp-1.animated,
+.wp-2.animated
+{
+    opacity: 1;
+}
+
+// .active::after
+// {
+//             content: "" !important;
+//             z-index: -1 !important;
+//             position: absolute !important;
+//             top:9.5px !important;
+//             left: -9.5px !important;
+//             width: 90% !important;
+//             height: 100% !important;
+//             background-color: #ac9377 !important;
+//             opacity: 1 !important;
+// }
+
+
+@media only screen and (min-width:1200px)
+{
+    .menu
+    {
+        height: 60vh;
+    }
+}
+    @media only screen and (max-width :480px)
+    {
+        .menu
+        {
+            padding: 4rem 0;
+            .menu__title
+            {
+                & .menu__title--size
+                {
+                    font-size: 5rem;
+                    padding-left: 2rem;
+                }
+            }
+
+            .menu__text
+            {
+                padding: 2rem;
+            }
+        }
+    }
+
+
+   
+
+  
