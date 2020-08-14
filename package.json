@@ -8,13 +8,12 @@
   },
   "author": "Anurag",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
-    "node-sass": "^4.14.1"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.12.0"
   }
 }
